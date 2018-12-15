@@ -1,0 +1,214 @@
+Vocabulary Size: 18758
+Train/Dev split: 9596/1066
+x_testSize= 10662 Y Size= (10662, 2) MaxDocLength 56 length x_words 10662
+
+Random Word embeddings, 128 filters
+Embedding matrix trained as well
+2018-12-12T18:21:22.154264: step 29995, loss 0.00962408, acc 1
+2018-12-12T18:21:22.254090: step 29996, loss 0, acc 1
+2018-12-12T18:21:22.350816: step 29997, loss 5.58794e-09, acc 1
+2018-12-12T18:21:22.449991: step 29998, loss 0, acc 1
+2018-12-12T18:21:22.548828: step 29999, loss 1.8495e-06, acc 1
+2018-12-12T18:21:22.644087: step 30000, loss 0, acc 1
+
+Evaluation:
+2018-12-12T18:21:22.924632: step 30000, loss 9.80666, acc 0.733584
+
+Saved model checkpoint to /Users/svenka1/ucsc/Tensor/FinalProject/orig/runs/1544664471/checkpoints/model-30000
+55 mins run time on my laptop
+------------------------------------------
+Random Word embeddings, 64 filters
+2018-12-13T20:03:49.061417: step 29989, loss 5.58793e-09, acc 1
+2018-12-13T20:03:49.146539: step 29990, loss 1.86264e-08, acc 1
+2018-12-13T20:03:49.233181: step 29991, loss 3.68205e-06, acc 1
+2018-12-13T20:03:49.324258: step 29992, loss 2.65853e-05, acc 1
+2018-12-13T20:03:49.409055: step 29993, loss 1.86265e-09, acc 1
+2018-12-13T20:03:49.492920: step 29994, loss 0.000162576, acc 1
+2018-12-13T20:03:49.579993: step 29995, loss 1.86265e-09, acc 1
+2018-12-13T20:03:49.666660: step 29996, loss 2.6077e-08, acc 1
+2018-12-13T20:03:49.749918: step 29997, loss 5.14378e-06, acc 1
+2018-12-13T20:03:49.832180: step 29998, loss 1.37835e-07, acc 1
+2018-12-13T20:03:49.915985: step 29999, loss 5.58794e-09, acc 1
+2018-12-13T20:03:50.001078: step 30000, loss 1.69471e-06, acc 1
+
+Evaluation:
+2018-12-13T20:03:50.191840: step 30000, loss 7.22594, acc 0.725141
+
+Saved model checkpoint to /Users/svenka1/ucsc/Tensor/FinalProject/orig/runs/1544757510/checkpoints/model-30000
+
+
+real	45m26.386s
+------------------------------------------
+
+Word2vec word embedding, non-static 128 filters, (trainable=True)
+
+2018-12-12T19:28:36.525030: step 29990, loss 0, acc 1
+2018-12-12T19:28:36.617839: step 29991, loss 0.000304033, acc 1
+2018-12-12T19:28:36.711012: step 29992, loss 3.38969e-06, acc 1
+2018-12-12T19:28:36.807912: step 29993, loss 0, acc 1
+2018-12-12T19:28:36.902435: step 29994, loss 9.87263e-06, acc 1
+2018-12-12T19:28:36.997165: step 29995, loss 7.2643e-08, acc 1
+2018-12-12T19:28:37.092479: step 29996, loss 0.000114397, acc 1
+2018-12-12T19:28:37.186262: step 29997, loss 0, acc 1
+2018-12-12T19:28:37.283549: step 29998, loss 0.00667402, acc 1
+2018-12-12T19:28:37.379077: step 29999, loss 5.55156e-06, acc 1
+2018-12-12T19:28:37.472056: step 30000, loss 0.00906501, acc 1
+
+Evaluation:
+2018-12-12T19:28:37.748579: step 30000, loss 8.98525, acc 0.761726
+56m39.827 Runtime
+
+---------------------------------------------------
+Word2vec word embedding, non-static, 64 filters (trainable=True)
+2018-12-13T19:06:22.687249: step 29989, loss 1.67638e-08, acc 1
+2018-12-13T19:06:22.802211: step 29990, loss 9.87186e-07, acc 1
+2018-12-13T19:06:22.896138: step 29991, loss 0.00142191, acc 1
+2018-12-13T19:06:22.991175: step 29992, loss 1.33546e-06, acc 1
+2018-12-13T19:06:23.086907: step 29993, loss 3.68801e-07, acc 1
+2018-12-13T19:06:23.172926: step 29994, loss 1.13915e-05, acc 1
+2018-12-13T19:06:23.259793: step 29995, loss 0.00108186, acc 1
+2018-12-13T19:06:23.346401: step 29996, loss 3.52037e-07, acc 1
+2018-12-13T19:06:23.430852: step 29997, loss 0.000505573, acc 1
+2018-12-13T19:06:23.517488: step 29998, loss 0.000264409, acc 1
+2018-12-13T19:06:23.606882: step 29999, loss 3.8033e-05, acc 1
+2018-12-13T19:06:23.693427: step 30000, loss 1.85759e-06, acc 1
+
+Evaluation:
+2018-12-13T19:06:23.894662: step 30000, loss 5.78301, acc 0.75985
+
+Saved model checkpoint to /Users/svenka1/ucsc/Tensor/FinalProject/usew2vCons/runs/1544754014/checkpoints/model-30000
+
+
+real	50m19.115s
+---------------------------------------------------
+Word2vec word embedding, static (trainable=False ), 128 filters
+2018-12-12T20:50:59.967756: step 29989, loss 0.0177226, acc 1
+2018-12-12T20:51:00.006913: step 29990, loss 0.21209, acc 0.96875
+2018-12-12T20:51:00.045206: step 29991, loss 0.232092, acc 0.96875
+2018-12-12T20:51:00.083807: step 29992, loss 0.00343309, acc 1
+2018-12-12T20:51:00.121998: step 29993, loss 0.00819023, acc 1
+2018-12-12T20:51:00.159766: step 29994, loss 0.0199154, acc 1
+2018-12-12T20:51:00.198064: step 29995, loss 0.00658251, acc 1
+2018-12-12T20:51:00.236402: step 29996, loss 0.0085009, acc 1
+2018-12-12T20:51:00.274556: step 29997, loss 0.0212334, acc 1
+2018-12-12T20:51:00.312274: step 29998, loss 0.0911747, acc 0.96875
+2018-12-12T20:51:00.350941: step 29999, loss 0.00838669, acc 1
+2018-12-12T20:51:00.387161: step 30000, loss 0.0748612, acc 0.966667
+
+Evaluation:
+2018-12-12T20:51:00.655130: step 30000, loss 1.86259, acc 0.738274
+real	25m42.135s Runtime
+-------------------------------------------------------
+Word2vec word embedding, static (trainable=False ), 64 filters
+
+2018-12-13T17:19:55.704558: step 29989, loss 0.0443257, acc 0.984375
+2018-12-13T17:19:55.732735: step 29990, loss 0.0183248, acc 1
+2018-12-13T17:19:55.760111: step 29991, loss 0.0102732, acc 1
+2018-12-13T17:19:55.788891: step 29992, loss 0.139038, acc 0.953125
+2018-12-13T17:19:55.816754: step 29993, loss 0.0166564, acc 1
+2018-12-13T17:19:55.844573: step 29994, loss 0.0213382, acc 0.984375
+2018-12-13T17:19:55.872126: step 29995, loss 0.225158, acc 0.9375
+2018-12-13T17:19:55.899109: step 29996, loss 0.0123869, acc 1
+2018-12-13T17:19:55.927737: step 29997, loss 0.12573, acc 0.96875
+2018-12-13T17:19:55.954556: step 29998, loss 0.0253764, acc 1
+2018-12-13T17:19:55.983376: step 29999, loss 0.0937181, acc 0.96875
+2018-12-13T17:19:56.010443: step 30000, loss 0.025794, acc 0.983333
+
+Evaluation:
+2018-12-13T17:19:56.213366: step 30000, loss 1.4093, acc 0.745779
+real	20m37.347s
+-------------------------------------------------------
+gloVE word embedding, static, embedding_dim=100
+2018-12-12T23:05:37.920881: step 29989, loss 0.0556557, acc 0.96875
+2018-12-12T23:05:37.952954: step 29990, loss 0.000328373, acc 1
+2018-12-12T23:05:37.985381: step 29991, loss 0.165864, acc 0.96875
+2018-12-12T23:05:38.017234: step 29992, loss 0.00439219, acc 1
+2018-12-12T23:05:38.051534: step 29993, loss 0.000489596, acc 1
+2018-12-12T23:05:38.086242: step 29994, loss 7.9986e-05, acc 1
+2018-12-12T23:05:38.119420: step 29995, loss 0.0585467, acc 0.984375
+2018-12-12T23:05:38.154012: step 29996, loss 0.0392667, acc 0.96875
+2018-12-12T23:05:38.188755: step 29997, loss 0.0363749, acc 0.984375
+2018-12-12T23:05:38.223521: step 29998, loss 0.00385924, acc 1
+2018-12-12T23:05:38.259160: step 29999, loss 0.00480963, acc 1
+2018-12-12T23:05:38.293096: step 30000, loss 0.0113763, acc 1
+
+Evaluation:
+2018-12-12T23:05:38.560650: step 30000, loss 1.86641, acc 0.74015
+
+Saved model checkpoint to /Users/svenka1/ucsc/Tensor/FinalProject/usew2vCons/runs/1544683626/checkpoints/model-30000
+
+
+real	19m13.589s Run time
+---------------------------------
+GloVE embedding static, embedding_dim=100, num_filters=64
+
+2018-12-13T16:09:44.192916: step 29989, loss 0.0351723, acc 0.984375
+2018-12-13T16:09:44.216536: step 29990, loss 0.0386302, acc 0.984375
+2018-12-13T16:09:44.240059: step 29991, loss 0.0216367, acc 1
+2018-12-13T16:09:44.263234: step 29992, loss 0.00681716, acc 1
+2018-12-13T16:09:44.286869: step 29993, loss 0.0217079, acc 0.984375
+2018-12-13T16:09:44.310719: step 29994, loss 0.0038202, acc 1
+2018-12-13T16:09:44.334625: step 29995, loss 0.00351131, acc 1
+2018-12-13T16:09:44.359368: step 29996, loss 0.0107026, acc 1
+2018-12-13T16:09:44.382712: step 29997, loss 0.0123886, acc 1
+2018-12-13T16:09:44.407661: step 29998, loss 0.0989737, acc 0.984375
+2018-12-13T16:09:44.431164: step 29999, loss 0.0110658, acc 1
+2018-12-13T16:09:44.453423: step 30000, loss 0.291931, acc 0.983333
+
+Evaluation:
+2018-12-13T16:09:44.623879: step 30000, loss 1.48303, acc 0.737336
+
+Saved model checkpoint to /Users/svenka1/ucsc/Tensor/FinalProject/usew2vCons/runs/1544745380/checkpoints/model-30000
+
+
+real	14m1.653s
+-------------------------------------------------------------
+3000 reviews from Amazon (1000), IMDB (1000) Yelp (1000)
+1500 positive, 1500 negative
+Maximum sentence length 81, 5188 words, 4995 present, 193 missing
+GloVE word embedding - 128 filters
+2018-12-14T13:30:03.859339: step 7589, loss 0.000277113, acc 1
+2018-12-14T13:30:03.902993: step 7590, loss 0.00835697, acc 1
+2018-12-14T13:30:03.947762: step 7591, loss 0.00113625, acc 1
+2018-12-14T13:30:03.992128: step 7592, loss 0.000841176, acc 1
+2018-12-14T13:30:04.037426: step 7593, loss 0.00714823, acc 1
+2018-12-14T13:30:04.082691: step 7594, loss 0.000647684, acc 1
+2018-12-14T13:30:04.128607: step 7595, loss 0.119732, acc 0.96875
+2018-12-14T13:30:04.173878: step 7596, loss 0.0019527, acc 1
+2018-12-14T13:30:04.218139: step 7597, loss 0.00186781, acc 1
+2018-12-14T13:30:04.261941: step 7598, loss 0.0127497, acc 1
+2018-12-14T13:30:04.305509: step 7599, loss 0.00278331, acc 1
+2018-12-14T13:30:04.332367: step 7600, loss 9.55294e-05, acc 1
+
+Evaluation:
+2018-12-14T13:30:04.522392: step 7600, loss 0.710503, acc 0.865
+
+Saved model checkpoint to /Users/svenka1/ucsc/Tensor/FinalProject/usew2vConsCust/runs/1544822626/checkpoints/model-7600
+
+
+real	6m55.459s
+-------------------------------------------------------------
+3000 reviews from Amazon (1000), IMDB (1000) Yelp (1000)
+1500 positive, 1500 negative
+Maximum sentence length 81, 5188 words, 4995 present, 193 missing
+GloVE word embedding - 64 filters
+2018-12-14T13:41:00.097554: step 7590, loss 0.000180241, acc 1
+2018-12-14T13:41:00.130301: step 7591, loss 0.00325004, acc 1
+2018-12-14T13:41:00.163195: step 7592, loss 0.0037138, acc 1
+2018-12-14T13:41:00.196258: step 7593, loss 0.000493041, acc 1
+2018-12-14T13:41:00.230145: step 7594, loss 0.00145287, acc 1
+2018-12-14T13:41:00.263159: step 7595, loss 0.000314087, acc 1
+2018-12-14T13:41:00.296248: step 7596, loss 0.00150276, acc 1
+2018-12-14T13:41:00.330187: step 7597, loss 0.00158604, acc 1
+2018-12-14T13:41:00.364069: step 7598, loss 0.0181882, acc 0.984375
+2018-12-14T13:41:00.397951: step 7599, loss 0.00151185, acc 1
+2018-12-14T13:41:00.418497: step 7600, loss 0.000200525, acc 1
+
+Evaluation:
+2018-12-14T13:41:00.562826: step 7600, loss 0.731687, acc 0.853333
+
+Saved model checkpoint to /Users/svenka1/ucsc/Tensor/FinalProject/usew2vConsCust/runs/1544823400/checkpoints/model-7600
+
+
+real	4m59.302s
+

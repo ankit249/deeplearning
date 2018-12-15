@@ -1,0 +1,6 @@
+model_checkpoint_path: "/Users/svenka1/ucsc/Tensor/FinalProject/usew2vConsCust/runs/1544822626/checkpoints/model-7600"
+all_model_checkpoint_paths: "/Users/svenka1/ucsc/Tensor/FinalProject/usew2vConsCust/runs/1544822626/checkpoints/model-7200"
+all_model_checkpoint_paths: "/Users/svenka1/ucsc/Tensor/FinalProject/usew2vConsCust/runs/1544822626/checkpoints/model-7300"
+all_model_checkpoint_paths: "/Users/svenka1/ucsc/Tensor/FinalProject/usew2vConsCust/runs/1544822626/checkpoints/model-7400"
+all_model_checkpoint_paths: "/Users/svenka1/ucsc/Tensor/FinalProject/usew2vConsCust/runs/1544822626/checkpoints/model-7500"
+all_model_checkpoint_paths: "/Users/svenka1/ucsc/Tensor/FinalProject/usew2vConsCust/runs/1544822626/checkpoints/model-7600"
