@@ -1,4 +1,3 @@
-# deeplearning
+# Deep Learning
 Deep Learning Final Project @UC Santa Cruz
-
-# Authors: Shankar Venkataraman, Ankit Shah
+Authors: Shankar Venkataraman, Ankit Shah
